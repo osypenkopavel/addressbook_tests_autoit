@@ -10,6 +10,11 @@ namespace addressbook_tests_autoit
     {
         public string Name { get; set; }
 
+        public GroupData()
+        {
+
+        }
+
         public int CompareTo(GroupData other)
         {
             return this.Name.CompareTo(other.Name);
